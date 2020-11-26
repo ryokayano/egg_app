@@ -11,7 +11,8 @@ export default function App() {
   let countDown = () => {
     setCount(count - 1);
   }
-  let word;
+  
+  let word: string = "がんばれ";
   if (count === 75) {
     word = "がんばれ";
   } else if (count === 50) {
